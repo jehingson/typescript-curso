@@ -20,10 +20,10 @@ otherId = '1'
 // otherId = true
 console.log('otherId', otherId)
 
-let surprise: any = 'hello typescript'
+let surprise: any = '1232423434543534'
 // surprise.sayHello(); //Error
-const res = surprise.substring(6); //Podria haber un error en tiempo de 
-console.log('res', res)            // porque surprise es un valor diferente
+const res = surprise.substring(12); //Podria haber un error en tiempo de 
+console.log(`*******${res}`)            // porque surprise es un valor diferente
                                    // de type string el substring genera error
 
 

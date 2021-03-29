@@ -19,8 +19,8 @@ otherId = 1;
 otherId = '1';
 // otherId = true
 console.log('otherId', otherId);
-var surprise = 'hello typescript';
+var surprise = '1232423434543534';
 // surprise.sayHello(); //Error
-var res = surprise.substring(6); //Podria haber un error en tiempo de 
-console.log('res', res); // porque surprise es un valor diferente
+var res = surprise.substring(12); //Podria haber un error en tiempo de 
+console.log("*******" + res); // porque surprise es un valor diferente
 // de type string el substring genera error
